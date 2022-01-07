@@ -1,11 +1,10 @@
 import readLineSync from 'readline-sync';
 /**
- *
  * @param {вопрос} quest
  * @param {ответ} expected
  * @param {имя} name
  */
-const question = (quest, expected, name) => {
+export default (quest, expected, name) => {
   console.log(`Question: ${quest}`);
   const answer = readLineSync.question('Your answer: ');
   if (answer !== `${expected}`) {
@@ -16,5 +15,3 @@ const question = (quest, expected, name) => {
   console.log('Correct!');
   return true;
 };
-
-export default question;
