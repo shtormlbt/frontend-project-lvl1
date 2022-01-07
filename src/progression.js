@@ -3,6 +3,7 @@ import index from './index.js';
 
 export default () => {
   const name = hellow();
+  console.log('What number is missing in this progression?');
   let win = true;
   for (let i = 0; i < 3; i += 1) {
     const rndProgressSteep = Math.floor(Math.random() * 9);
