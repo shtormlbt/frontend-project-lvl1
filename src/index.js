@@ -9,7 +9,7 @@ export default (quest, expected, name) => {
   const answer = readLineSync.question('Your answer: ');
   if (answer !== `${expected}`) {
     console.log(`${answer} is wrong answer ;(. Correct answer was ${expected}.`);
-    console.log(`Let's try again, ${name}`);
+    console.log(`Let's try again, ${name}!`);
     return false;
   }
   console.log('Correct!');
