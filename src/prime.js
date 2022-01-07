@@ -17,7 +17,7 @@ const isPrime = (num) => {
 
 export default () => {
   const name = hellow();
-  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+  console.log('Answer \'yes\' if given number is prime. Otherwise answer \'no\'.');
   let win = true;
   for (let i = 0; i < 3; i += 1) {
     const rndNum = Math.floor(Math.random() * 99);

@@ -3,7 +3,7 @@ import index from './index.js';
 
 export default () => {
   const name = hellow();
-  console.log('Answer "yes" if number even otherwise answer "no".');
+  console.log('Answer \'yes\' if number even otherwise answer \'no\'.');
   let win = true;
   for (let i = 0; i < 3; i += 1) {
     const rndNum = Math.floor(Math.random() * 1000);
