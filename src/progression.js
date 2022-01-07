@@ -15,7 +15,7 @@ export default () => {
     }
     const expected = progression[rndHideNum];
     progression[rndHideNum] = '..';
-    const quest = progression.join(',');
+    const quest = progression.join(' ');
     win = index(quest, expected, name);
     if (win === false) {
       break;
