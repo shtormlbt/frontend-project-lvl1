@@ -1,5 +1,5 @@
 import hellow from './hellow.js';
-import question from './question.js';
+import index from './index.js';
 
 const gcd = (a, b) => {
   if (b) {
@@ -18,7 +18,7 @@ export default () => {
 
     const expected = `${gcd(rndOneNum, rndTwoNum)}`;
 
-    win = question(quest, expected, name);
+    win = index(quest, expected, name);
     if (win === false) {
       break;
     }

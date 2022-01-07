@@ -1,5 +1,5 @@
 import hellow from './hellow.js';
-import question from './question.js';
+import index from './index.js';
 
 export default () => {
   const name = hellow();
@@ -12,7 +12,7 @@ export default () => {
     } else {
       expected = 'no';
     }
-    win = question(rndNum, expected, name);
+    win = index(rndNum, expected, name);
     if (win === false) {
       break;
     }
